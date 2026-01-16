@@ -13,7 +13,9 @@ const initSocket = (server) => {
     cors: {
         origin: [
             'http://localhost:3002', // home 
-            'http://localhost:3001', // doctor           
+            'http://localhost:3001', // doctor        
+            'https://basch.id.vn',
+            'https://doctor.basch.id.vn',   
         ],
       methods: ["GET", "POST"],
       credentials: true,

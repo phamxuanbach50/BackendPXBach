@@ -52,6 +52,9 @@ const allowedOrigins = [
     'https://adminkhambenh.dantri24h.com',
     'https://doctorkhambenh.dantri24h.com',
     'https://datlichkhambenh.dokhactu.site',
+    'https://basch.id.vn',
+    'https://admin.basch.id.vn',
+    'https://doctor.basch.id.vn',
 ];
 
 app.use(cors({
